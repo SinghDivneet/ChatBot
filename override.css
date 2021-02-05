@@ -1,30 +1,26 @@
-/* header, .minimized-view, .composer, .composer > textarea {
-    background-color : red !important;
-  }
-  
-  .header, .minimized-view, .composer > textarea {
-    color: pink !important;
-  }
-  
-  .taskbox-body {
-    border-radius : 0 !important;
-  }
-  
-  .taskbox-body .taskbox-tab {
-    width : 100px !important;
-  }
-  
-  .taskbox-body .taskbox-tasks>.task:hover {
-    background-color: pink !important;
-  } */
-  /* .message-section-message-row{
-      
-  } */
+.hsl-bubble-text{
+  background-color: pink !important;
+}
 
-  .hsl-bubble-text{
-    background-color: pink !important;
-  }
+.hsl-bubble-text.v2{
+  color: black !important;
+}
 
-  .hsl-bubble-text.v2 {
-      color: white !important;
-  }
+.quick-reply-stacked{
+  justify-content: unset !important;
+}
+.quick-reply-option {
+  background-color: black !important;
+  border-radius: 4px !important;
+}
+.message-section-message-row.from-business::before{
+  content: "" !important;
+  background-size: 35px 35px !important;
+  background-image: url(dream11.png) !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-repeat: no-repeat !important;
+}
+.message-section-message-row.from-business{
+  flex-wrap: unset !important;
+}
