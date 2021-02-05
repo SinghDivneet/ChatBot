@@ -5,6 +5,9 @@
 .hsl-bubble-text.v2{
   color: black !important;
 }
+.quick-reply-wrapper{
+  margin-left: 2.6rem !important;
+}
 
 .quick-reply-stacked{
   justify-content: unset !important;
@@ -13,6 +16,7 @@
   background-color: black !important;
   border-radius: 4px !important;
 }
+
 .message-section-message-row.from-business::before{
   content: "" !important;
   background-size: 35px 35px !important;
@@ -20,7 +24,26 @@
   width: 30px !important;
   height: 30px !important;
   background-repeat: no-repeat !important;
+  margin-top: .2rem !important;
 }
 .message-section-message-row.from-business{
   flex-wrap: unset !important;
+  align-items: unset !important;
 }
+/* .composer {
+  background-color: unset !important;
+  height: 35px !important;
+  border: unset !important;
+  height: unset !important;
+  color: unset !important;
+}
+.composer-text-area{
+  border: 2px solid rgb(224, 239, 249) !important;
+    border-radius: 52px !important;
+    --primary-color: #3498db !important;
+    --placeholder-color: #3498db !important;
+    --background-color: #f4f9fd !important;
+    background-color: rgb(234, 244, 251);
+    height: 35px !important;
+    color: rgb(52, 152, 219) !important;
+} */
