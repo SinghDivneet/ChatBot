@@ -1,0 +1,30 @@
+/* header, .minimized-view, .composer, .composer > textarea {
+    background-color : red !important;
+  }
+  
+  .header, .minimized-view, .composer > textarea {
+    color: pink !important;
+  }
+  
+  .taskbox-body {
+    border-radius : 0 !important;
+  }
+  
+  .taskbox-body .taskbox-tab {
+    width : 100px !important;
+  }
+  
+  .taskbox-body .taskbox-tasks>.task:hover {
+    background-color: pink !important;
+  } */
+  /* .message-section-message-row{
+      
+  } */
+
+  .hsl-bubble-text{
+    background-color: pink !important;
+  }
+
+  .hsl-bubble-text.v2 {
+      color: white !important;
+  }

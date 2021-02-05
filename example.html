@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Haptik JS SDK Custom Icon Demo</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width; initial-scale=1.0;" name="viewport">
+    <style>
+    
+    </style>
+  </head>
+  
+  <body>
+    <p>Hey this is custom css for chat bot</p>
+  </body>
+  
+  <script type="text/javascript">
+  window.haptikInitSettings = {
+    "business-id": "2689",
+    "client-id": "80682e195ddc020f595841312e962d3b6c423999",
+    "base-url": "https://staging.hellohaptik.com/",
+    'custom-css': "/home/negi/Desktop/override.css",
+    // "privacy-policy-url": "URL_TO_YOUR_PRIVACY_POLICY_PAGE",
+  };
+  </script>
+  <script type="text/javascript" charset="UTF-8" src="https://toolassets.haptikapi.com/platform/javascript-xdk/production/loader.js"></script>
+  <script>
+  function openChat() {
+    HaptikSDK.show()
+  }
+  </script>
+  </html>
