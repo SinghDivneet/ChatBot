@@ -1,5 +1,9 @@
 .hsl-bubble-text{
   background-color: pink !important;
+  border-bottom-left-radius: unset;
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
 }
 
 .hsl-bubble-text.v2{
