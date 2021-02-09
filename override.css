@@ -1,3 +1,4 @@
+/* hsl */
 .hsl-bubble-text{
   background-color: pink !important;
   border-bottom-left-radius: unset;
@@ -9,6 +10,8 @@
 .hsl-bubble-text.v2{
   color: black !important;
 }
+
+/* quick reply */
 .quick-reply-wrapper{
   margin-left: 2.6rem !important;
 }
@@ -34,20 +37,96 @@
   flex-wrap: unset !important;
   align-items: unset !important;
 }
-/* .composer {
-  background-color: unset !important;
-  height: 35px !important;
+
+/* text area at bottom */
+.composer.v2 {
   border: unset !important;
-  height: unset !important;
-  color: unset !important;
-}
-.composer-text-area{
-  border: 2px solid rgb(224, 239, 249) !important;
-    border-radius: 52px !important;
-    --primary-color: #3498db !important;
-    --placeholder-color: #3498db !important;
-    --background-color: #f4f9fd !important;
-    background-color: rgb(234, 244, 251);
+    --primary-color: unset !important;
+    --placeholder-color: unset!important;
+    --background-color: unset !important;
+    background-color: unset !important;
     height: 35px !important;
-    color: rgb(52, 152, 219) !important;
+    color: unset !important;
+
+
+    /* padding: unset !important; */
+    transition: unset !important;
+    box-shadow: none !important;
+}
+
+.composer-text-area.v2{
+  overflow: hidden !important;
+}
+
+/* .composer {
+  border: unset !important;
+    --primary-color: #3498db !important;
+    --placeholder-color: !important;
+    --background-color: #f4f9fd !important;
+    background-color: unset;
+    height: 35px !important;
+    color: unset !important;
+
+
+    padding: unset !important;
+    transition: background-color 200ms linear !important;
+    box-shadow: none !important;
 } */
+
+.composer-text-area{
+  border: 2px solid #dddddd !important;
+    border-radius: 52px !important;
+    --primary-color: #dddddd !important;
+    --placeholder-color: #7d7d7d !important;
+    --background-color: #dddddd !important;
+    background-color: #dddddd !important;
+    height: 35px !important;
+    color: #424141 !important;
+
+
+    padding: 7px 12px 7px 14px !important;
+    transition: background-color 200ms linear !important;
+    box-shadow: none !important;
+}
+
+.composer-icon.right{
+  border-radius: 15px !important;
+  border: 1px solid #dddddd !important;
+  background-color: #dddddd !important;
+}
+
+.composer-icon.right svg path{
+  fill: white !important;
+}
+
+/* taskbox */
+.taskbox-new-tasks{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  padding: unset !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 75% !important;
+}
+
+.taskbox-new-tasks .task-new.title{ 
+  --primary-color: white !important;
+  --primary-color-overlay: black !important;
+  background-color: black !important;
+  margin: .25rem !important;
+  border-radius: 7px !important;
+  height: 36px !important;
+  padding: 0 12px !important;
+}
+
+.task-new-icon{
+  display: none !important;
+}
+
+.taskbox-new-body{
+  overflow: hidden !important;
+}
+
+.taskbox-new-body.active{
+  margin-bottom: 19px !important;
+}
