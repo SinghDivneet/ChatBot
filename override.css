@@ -7,6 +7,11 @@
   border-bottom-right-radius: 25px !important;
 }
 
+.from-user
+.hsl-bubble-text{
+  background-color: white !important;
+}
+
 .hsl-bubble-text.v2{
   color: black !important;
 }
