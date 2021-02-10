@@ -10,7 +10,9 @@
 .from-user
 .hsl-bubble-text{
   background-color: white !important;
+  border: 1px solid #e6e6e6 !important;
 }
+
 
 .hsl-bubble-text.v2{
   color: black !important;
