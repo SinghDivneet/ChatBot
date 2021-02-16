@@ -171,3 +171,7 @@ span.taskbox-new-CTA-text.left{
   border-top-left-radius: 25px !important;
   border-bottom-right-radius: 25px !important;
 }
+
+.task-new.suggestion {
+  width: 100%;
+}
