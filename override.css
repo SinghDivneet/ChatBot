@@ -151,3 +151,23 @@
 span.taskbox-new-CTA-text.left{
   display: none;
 }
+
+.message-section-message-button-actionables {
+  padding: .7rem !important;
+}
+
+.message-section-message-button-actionable{
+  background-color: #524f4f !important;
+  border-radius: 7px !important;
+}
+
+.hsl-actionable-text.v2{
+  color: white !important;
+}
+
+.hsl-button.message-section-message-button{
+  border-bottom-left-radius: unset;
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+}
