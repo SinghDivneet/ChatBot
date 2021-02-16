@@ -34,7 +34,7 @@
 
 .message-section-message-row.from-business::before{
   content: "" !important;
-  background-size: 35px 35px !important;
+  background-size: 30px 30px !important;
   background-image: url(Dream11.png) !important;
   width: 30px !important;
   height: 30px !important;
@@ -148,7 +148,6 @@
   color: #595959;
 }
 
-.taskbox-new-CTA span
-.taskbox-new-CTA-text.left {
+span.taskbox-new-CTA-text.left{
   display: none;
 }
