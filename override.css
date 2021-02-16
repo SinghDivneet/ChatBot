@@ -35,7 +35,7 @@
 .message-section-message-row.from-business::before{
   content: "" !important;
   background-size: 35px 35px !important;
-  background-image: url(Dream11.jpeg) !important;
+  background-image: url(Dream11.png) !important;
   width: 30px !important;
   height: 30px !important;
   background-repeat: no-repeat !important;
@@ -137,4 +137,18 @@
 
 .taskbox-new-body.active{
   margin-bottom: 19px !important;
+}
+
+.taskbox-new-CTA.active::before,
+.taskbox-new-CTA::before{
+  content: 'Changed Menu';
+  font-family: "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans", sans-serif !important;
+  font-size: 14px;
+  font-weight: 600;
+  color: #595959;
+}
+
+.taskbox-new-CTA.active span,
+.taskbox-new-CTA span{
+  display: none;
 }
