@@ -9,14 +9,14 @@
 
 .from-user
 .hsl-bubble-text{
-  background-color: green !important;
+  background-color: #0d802e !important;
   color: white !important;
   border: 1px solid #e6e6e6 !important;
 }
 
 
 .hsl-bubble-text.v2{
-  color: black;
+  color: #4d4d4d;
 }
 
 /* quick reply */
@@ -28,7 +28,7 @@
   justify-content: unset !important;
 }
 .quick-reply-option {
-  background-color: black !important;
+  background-color: #4d4d4d !important;
   border-radius: 4px !important;
 }
 
@@ -119,8 +119,8 @@
 
 .taskbox-new-tasks .task-new.title{ 
   --primary-color: white !important;
-  --primary-color-overlay: black !important;
-  background-color: black !important;
+  --primary-color-overlay: #4d4d4d !important;
+  background-color:#4d4d4d !important;
   margin: .25rem !important;
   border-radius: 7px !important;
   height: 36px !important;
@@ -143,9 +143,10 @@
 .taskbox-new-CTA::before{
   content: 'choose from the topic below to begin chat';
   font-family: "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans", sans-serif !important;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
-  color: #595959;
+  letter-spacing: 0;
+  color: #797979;
 }
 
 span.taskbox-new-CTA-text.left{
@@ -157,7 +158,7 @@ span.taskbox-new-CTA-text.left{
 }
 
 .message-section-message-button-actionable{
-  background-color: #524f4f !important;
+  background-color: #4d4d4d !important;
   border-radius: 7px !important;
 }
 
