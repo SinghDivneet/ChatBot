@@ -141,7 +141,7 @@
 
 .taskbox-new-CTA.active::before,
 .taskbox-new-CTA::before{
-  content: 'Changed Menu';
+  content: 'choose from the topic below to begin chat';
   font-family: "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans", sans-serif !important;
   font-size: 14px;
   font-weight: 600;
