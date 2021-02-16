@@ -148,7 +148,7 @@
   color: #595959;
 }
 
-.taskbox-new-CTA.active span,
-.taskbox-new-CTA span{
+.taskbox-new-CTA span
+.taskbox-new-CTA-text.left {
   display: none;
 }
