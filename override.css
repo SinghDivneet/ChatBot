@@ -180,17 +180,15 @@ span.taskbox-new-CTA-text.left{
 /* menu task button */
 .taskbox-new-CTA.active
 .composer-icon.right{
-  position: absolute;
-  bottom: 0;
-  top: 14.5rem;
+  position: fixed;
+  top: 28.1rem;
   margin: unset;
 }
 
 .taskbox-new-CTA
 .composer-icon.right{
-  position: absolute;
-  bottom: 0;
-  top: 4rem;
+  position: fixed;
+  top: 28.1rem;
   margin: unset;
   border-radius: unset !important;
   background-color: unset !important;
