@@ -176,3 +176,45 @@ span.taskbox-new-CTA-text.left{
 .task-new.suggestion {
   width: 100%;
 }
+
+/* menu task button */
+.taskbox-new-CTA.active
+.composer-icon.right{
+  position: absolute;
+  bottom: 0;
+  top: 14.5rem;
+  margin: unset;
+}
+
+.taskbox-new-CTA
+.composer-icon.right{
+  position: absolute;
+  bottom: 0;
+  top: 4rem;
+  margin: unset;
+  border-radius: unset !important;
+  background-color: unset !important;
+  border: unset !important;
+}
+
+.composer-wrapper.v2{
+  padding: 0px 10px;
+  width: 85%;
+  position: relative;
+  left: 3rem;
+}
+
+.taskbox-new-CTA 
+.composer-icon svg{
+  display: none;
+}
+
+.taskbox-new-CTA
+span.composer-icon.right::before {
+  content: "" !important;
+  background-size: 30px 30px !important;
+  background-image: url(menu-task.png) !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-repeat: no-repeat !important;
+}
