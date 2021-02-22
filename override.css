@@ -181,14 +181,16 @@ span.taskbox-new-CTA-text.left{
 .taskbox-new-CTA.active
 .composer-icon.right{
   position: fixed;
-  top: 28.1rem;
+  /* top: 28rem; */
+  bottom: 6vh;
   margin: unset;
 }
 
 .taskbox-new-CTA
 .composer-icon.right{
   position: fixed;
-  top: 28.1rem;
+  /* top: 28rem; */
+  bottom: 6vh;
   margin: unset;
   border-radius: unset !important;
   background-color: unset !important;
