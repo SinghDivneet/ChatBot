@@ -1,3 +1,15 @@
+/* background image */
+.message-section-area{
+  background-image: url(bg.png) !important;
+}
+
+/* headers */
+.header-v2{
+  background-color: black !important;
+}
+.header-v2-top-left-text{
+  color: white !important;
+}
 /* hsl */
 .hsl-bubble-text{
   background-color: white !important;
@@ -34,10 +46,10 @@
 
 .message-section-message-row.from-business::before{
   content: "" !important;
-  background-size: 30px 30px !important;
-  background-image: url(Dream11.png) !important;
-  width: 30px !important;
-  height: 30px !important;
+  background-size: 36px 36px !important;
+  background-image: url(Dream11.jpg) !important;
+  width: 36px !important;
+  height: 36px !important;
   background-repeat: no-repeat !important;
   margin-top: .2rem !important;
 }
@@ -182,14 +194,16 @@ span.taskbox-new-CTA-text.left{
 .composer-icon.right{
   position: fixed;
   /* top: 28rem; */
-  bottom: 6vh;
-  margin: unset;
+  bottom: 5.8vh;
+  /* margin: unset; */
+  min-width: 32px !important
 }
 
 .taskbox-new-CTA
 .composer-icon.right{
   position: fixed;
   /* top: 28rem; */
+  min-width: 32px !important;
   bottom: 6vh;
   margin: unset;
   border-radius: unset !important;
@@ -198,10 +212,11 @@ span.taskbox-new-CTA-text.left{
 }
 
 .composer-wrapper.v2{
-  padding: 0px 10px;
-  width: 85%;
+  /* padding: 0px 10px; */
+  padding: unset !important;
+  width: 82%;
   position: relative;
-  left: 3rem;
+  left: 4.5rem;
 }
 
 .taskbox-new-CTA 
@@ -209,12 +224,22 @@ span.taskbox-new-CTA-text.left{
   display: none;
 }
 
+.taskbox-new-CTA.active
+span.composer-icon.right::before {
+  content: "" !important;
+  background-size: 32px 32px !important;
+  background-image: url(menu-task.png) !important;
+  width: 32px !important;
+  height: 32px !important;
+  background-repeat: no-repeat !important;
+}
+
 .taskbox-new-CTA
 span.composer-icon.right::before {
   content: "" !important;
-  background-size: 30px 30px !important;
-  background-image: url(menu-task.png) !important;
-  width: 30px !important;
-  height: 30px !important;
+  background-size: 32px 32px !important;
+  background-image: url(menu2.png) !important;
+  width: 32px !important;
+  height: 32px !important;
   background-repeat: no-repeat !important;
 }
