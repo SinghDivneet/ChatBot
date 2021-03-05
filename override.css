@@ -234,11 +234,7 @@ span.taskbox-new-CTA-text.left{
   position: fixed;
   /* top: 28rem; */
   min-width: 32px !important;
-<<<<<<< HEAD
   bottom: 4.6vh;
-=======
-  bottom: 5.8vh;
->>>>>>> 29e2c9069d5e2c2149a64efe8d94e01368a371fc
   margin: unset;
   border-radius: unset !important;
   background-color: unset !important;
@@ -275,7 +271,6 @@ span.composer-icon.right::before {
   background-image: url(menu2notactive.svg) !important;
   width: 32px !important;
   height: 37px !important;
-<<<<<<< HEAD
   background-repeat: no-repeat !important;
 }
 
@@ -311,40 +306,6 @@ span.composer-icon.right::before {
   width: 100% !important;
   height: 36px !important;
   background-repeat: no-repeat !important;
-=======
-  background-repeat: no-repeat !important;
-}
-
-
-
-.typing-indicator .typing-indicator-loader .typing-loader-circle {
-    position: relative;
-    top: -4px;
-    width: 7px !important;
-    height: 7px !important;
-    border-radius: 16px;
-    margin-right: 4px;
-    background-color: #ce2a1e !important;
-    animation: typing-indicator 1s ease-in-out infinite;
-    animation-fill-mode: both;
-}
-
-
-.taskbox-new-CTA {
-    
-    padding: 0px 22px 16px 10px !important;
-    height: unset !important;
-    
-}
-
-.composer-icon::before {
-  content: "" !important;
-  background-size: 34px 34px !important;
-  background-image: url(send.svg) !important;
-  width: 100% !important;
-  height: 36px !important;
-  background-repeat: no-repeat !important;
->>>>>>> 29e2c9069d5e2c2149a64efe8d94e01368a371fc
   background: white;
 }
 
@@ -357,7 +318,6 @@ span.composer-icon.right::before {
   height: 0% !important;
 }
 
-<<<<<<< HEAD
 .composer-branding {
   margin-top: 2px !important;
   margin-right: 2.5rem !important;
@@ -389,5 +349,3 @@ span.composer-icon.right::before {
   border-radius: 8px;
   padding: 0px;
 } */
-=======
->>>>>>> 29e2c9069d5e2c2149a64efe8d94e01368a371fc
