@@ -222,12 +222,12 @@ span.taskbox-new-CTA-text.left{
 @media screen and (max-width: 1024px){
   .taskbox-new-CTA.active
   .composer-icon.right{
-    bottom: 6vh;
+    bottom: 6vh !important;
   }
 
   .taskbox-new-CTA
   .composer-icon.right{
-    bottom: 6vh;
+    bottom: 6vh !important;
   }
 }
 
@@ -236,7 +236,7 @@ span.taskbox-new-CTA-text.left{
 .composer-icon.right{
   position: fixed;
   /* top: 28rem; */
-  bottom: 4.6vh;
+  bottom: 4.6vh !important;
   /* margin: unset; */
   min-width: 32px !important
 }
@@ -246,7 +246,7 @@ span.taskbox-new-CTA-text.left{
   position: fixed;
   /* top: 28rem; */
   min-width: 32px !important;
-  bottom: 4.6vh;
+  bottom: 4.6vh !important;
   margin: unset;
   border-radius: unset !important;
   background-color: unset !important;
