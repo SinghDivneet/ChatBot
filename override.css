@@ -219,6 +219,18 @@ span.taskbox-new-CTA-text.left{
   width: 100%;
 }
 
+@media screen and (max-width: 1024px){
+  .taskbox-new-CTA.active
+  .composer-icon.right{
+    bottom: 6vh;
+  }
+
+  .taskbox-new-CTA
+  .composer-icon.right{
+    bottom: 6vh;
+  }
+}
+
 /* menu task button */
 .taskbox-new-CTA.active
 .composer-icon.right{
@@ -323,35 +335,6 @@ span.composer-icon.right::before {
   margin-right: 2.5rem !important;
 }
 
-/* .typing-indicator {
-  content: "" !important;
-  background-size: 36px 36px !important;
-  background-image: url(Dream11.jpg) !important;
-  width: 36px !important;
-  height: 36px !important;
-  background-repeat: no-repeat !important;
-  border-radius: 50%;
-
-  color: rgb(51, 51, 51);
-  min-width: 80px !important;
-  font-size: 12px;
-  text-align: left;
-  clear: both;
-  position: relative;
-  word-break: break-word;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  opacity: 2;
-  transform-origin: 0px 100%;
-  border-radius: 8px;
-  padding: 0px;
-} */
-
-
-
 .fixed-bottom-area.v2 {
   bottom: 70px !important;
   background: none;
@@ -367,7 +350,6 @@ span.composer-icon.right::before {
 .typing-indicator-loader .typing-loader-circle{
   visibility: visible !important;
 }
-
 
 .typing-indicator{
   background-size: 15px 15px !important;
