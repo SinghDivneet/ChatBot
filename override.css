@@ -65,17 +65,17 @@
 
 .message-section-message-row.from-business::before{
   content: "" !important;
-  background-size: 36px 36px !important;
+  background-size: 36px 30px !important;
   background-image: url(Dream11.jpg) !important;
   width: 36px !important;
-  height: 36px !important;
+  height: 30px !important;
   background-repeat: no-repeat !important;
-  margin-top: .2rem !important;
+  margin-bottom: 0rem !important;
   border-radius: 50%;
 }
 .message-section-message-row.from-business{
   flex-wrap: unset !important;
-  align-items: unset !important;
+  align-items: flex-end !important;
 }
 
 /* text area at bottom */
@@ -349,3 +349,33 @@ span.composer-icon.right::before {
   border-radius: 8px;
   padding: 0px;
 } */
+
+
+
+.fixed-bottom-area.v2 {
+  bottom: 70px !important;
+  background: none;
+}
+
+* {
+  font-family: Roboto !important;
+}
+.typing-indicator-loader{
+  visibility: hidden !important;
+}
+
+.typing-indicator-loader .typing-loader-circle{
+  visibility: visible !important;
+}
+
+
+.typing-indicator{
+  background-size: 15px 15px !important;
+  background: url(Dream11smaller.jpg) no-repeat !important;
+  width: 15px !important;
+  height: 30px !important;
+  min-width: 80px !important;
+}
+
+
+
