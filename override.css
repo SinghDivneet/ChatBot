@@ -359,5 +359,17 @@ span.composer-icon.right::before {
   min-width: 80px !important;
 }
 
+/* Button Icon */
 
-
+.hsl-actionable.message-section-message-button-actionable span::before {
+  content: "" !important;
+  padding: 0.8rem;
+  background-size: 17px 18px !important;
+  background-image: url(link.png) !important;
+  width: 100% !important;
+  height: 36px !important;
+  background-repeat: no-repeat !important;
+  background: #4d4d4d;
+  padding-bottom: 0;
+  padding-top: 0;
+}
