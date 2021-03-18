@@ -214,6 +214,7 @@ span.taskbox-new-CTA-text.left{
 .message-section-message-button-actionable{
   background-color: #4d4d4d !important;
   border-radius: 4px !important;
+  padding: .7rem !important;
 }
 
 .hsl-actionable-text.v2{
@@ -388,7 +389,7 @@ span.composer-icon.right::before {
 }
 
 .hsl-actionable-text {
-  font-size: 12px !important;
+  font-size: 14px !important;
   /* font-weight: 500; */
 }
 
