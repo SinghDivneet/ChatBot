@@ -410,6 +410,7 @@ span.composer-icon.right::before {
 
 .task-new-title {
   font-family: Roboto-Regular !important;
+  font-weight: 100 !important;
 }
 
 .header-v2-top-left-text-title {
