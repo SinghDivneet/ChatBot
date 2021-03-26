@@ -165,10 +165,11 @@
   --primary-color: white !important;
   --primary-color-overlay: #4d4d4d !important;
   background-color:#4d4d4d !important;
-  margin: .25rem !important;
+  margin: 8px 0px 0px 8px !important;
   border-radius: 7px !important;
   height: 32px !important;
-  box-shadow: 0px 2px 2px 0px #33000020;
+  /* box-shadow: 0px 2px 2px 0px #33000020; */
+  box-shadow: 0px 2px 2px 0px rgb(0 0 0 / 20%) !important;
   padding: 6px 12px !important;
 }
 
@@ -195,6 +196,13 @@
   
 }
 
+.taskbox-new-CTA, .taskbox-new-body, .taskbox-new-overlay{
+  transition: 0s ease-out !important;
+}
+.taskbox-new-body.active{
+  transition-duration: 0s !important;
+} 
+
 .taskbox-new-CTA::before{
   content: '';
   font-family: "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans", sans-serif !important;
@@ -209,7 +217,7 @@ span.taskbox-new-CTA-text.left{
 }
 
 .message-section-message-button-actionables {
-  padding: .7rem !important;
+  padding: 8px !important;
 }
 
 .message-section-message-button-actionable{
@@ -227,7 +235,7 @@ span.taskbox-new-CTA-text.left{
 }
 
 .hsl-button.message-section-message-button{
-  border-bottom-left-radius: unset;
+  border-bottom-left-radius: 4px !important;
   border-top-right-radius: 25px !important;
   border-top-left-radius: 25px !important;
   border-bottom-right-radius: 25px !important;
@@ -414,6 +422,11 @@ span.composer-icon.right::before {
 }
 
 .header-v2-top-left-text-title {
+  visibility: hidden !important;
+}
+
+.header-v2 {
+ 
   visibility: hidden !important;
 }
 
