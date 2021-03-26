@@ -8,6 +8,7 @@
 /* background image */
 .message-section-area{
   background-image: url(bg.png) !important;
+  background-size: cover !important;
 }
 
 /* headers */
@@ -263,7 +264,8 @@ span.taskbox-new-CTA-text.left{
 .composer-icon.right{
   position: fixed;
   /* top: 28rem; */
-  bottom: 4.6vh !important;
+  /* bottom: 4.6vh !important; */
+  bottom: 3vh !important;
   /* margin: unset; */
   min-width: 32px !important
 }
@@ -273,7 +275,8 @@ span.taskbox-new-CTA-text.left{
   position: fixed;
   /* top: 28rem; */
   min-width: 32px !important;
-  bottom: 4.6vh !important;
+  /* bottom: 4.6vh !important; */
+  bottom: 3vh !important;
   margin: unset;
   border-radius: unset !important;
   background-color: unset !important;
@@ -282,8 +285,8 @@ span.taskbox-new-CTA-text.left{
 }
 
 .composer-wrapper.v2{
-  /* padding: 0px 10px; */
-  padding: unset !important;
+  padding: 0px 10px 13px 0px !important;
+  /* padding: unset !important; */
   width: 88%;
   position: relative;
   left: 3.1rem;
