@@ -425,9 +425,8 @@ span.composer-icon.right::before {
   visibility: hidden !important;
 }
 
-.header-v2 {
- 
-  visibility: hidden !important;
+.header-v2-wrapper {
+  display: none !important;
 }
 
 
