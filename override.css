@@ -50,18 +50,23 @@
 .hsl-bubble-text{
   background-color: #0d802e !important;
   color: white !important;
-  border: 1px solid #e6e6e6 !important;
+  /* border: 1px solid #e6e6e6 !important; */
   font-family: Roboto-Regular !important;
 }
 
 
 .hsl-bubble-text.v2{
-  color: #4d4d4d;
+  /* color: #4d4d4d; */
+     color: #1A1A1A;
 }
 
 /* quick reply */
 .quick-reply-wrapper{
   margin-left: 2.6rem !important;
+}
+
+.quick-reply-option-text{
+  padding: 8px !important;
 }
 
 .quick-reply-stacked{
@@ -70,6 +75,7 @@
 .quick-reply-option {
   background-color: #4d4d4d !important;
   border-radius: 4px !important;
+  height: 36px !important;
 }
 
 .message-section-messages{
@@ -167,7 +173,8 @@
   --primary-color: white !important;
   --primary-color-overlay: #4d4d4d !important;
   background-color:#4d4d4d !important;
-  margin: 8px 0px 0px 8px !important;
+  /* margin: 8px 0px 0px 8px !important; */
+  margin: 8px 4px 0px 4px !important;
   border-radius: 7px !important;
   height: 28px !important;
   /* box-shadow: 0px 2px 2px 0px #33000020; */
@@ -225,8 +232,9 @@ span.taskbox-new-CTA-text.left{
 .message-section-message-button-actionable{
   background-color: #4d4d4d !important;
   border-radius: 4px !important;
-  padding: 6px 12px !important;
-  height: 32px !important;
+  /* padding: 6px 12px !important; */
+  padding: 8.5px 12px !important;
+  height: 36px !important;
   font-size: 14px !important;
   font-family: Roboto-Regular !important;
 }
@@ -238,9 +246,9 @@ span.taskbox-new-CTA-text.left{
 
 .hsl-button.message-section-message-button{
   border-bottom-left-radius: 4px !important;
-  border-top-right-radius: 25px !important;
-  border-top-left-radius: 25px !important;
-  border-bottom-right-radius: 25px !important;
+  border-top-right-radius: 16px !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
 }
 
 .task-new.suggestion {
@@ -414,7 +422,9 @@ span.composer-icon.right::before {
   margin-right: 4px !important;
 }
 
-
+.quick-reply-stacked,
+.quick-reply-option-text.v2,
+.hsl-button-text.v2,
 .timeline-message-text.v2 {
   font-family: Roboto-Regular !important;
 }
