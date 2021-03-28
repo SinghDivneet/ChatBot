@@ -3,8 +3,6 @@
   src: url(Roboto-Regular.ttf);
 }
 
-
-
 /* background image */
 .message-section-area{
   background-image: url(bg.png) !important;
@@ -66,7 +64,7 @@
 }
 
 .quick-reply-option-text{
-  padding: 8px !important;
+  padding: 12px !important;
 }
 
 .quick-reply-stacked{
