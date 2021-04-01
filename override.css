@@ -479,3 +479,16 @@ span.composer-icon.right::before {
 
   }
 }
+
+.hsl-carousel-elements-item{
+  padding: 4px;
+  background-color: white;
+  border-bottom-left-radius: 4px !important;
+  border-top-right-radius: 16px !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+iframe {
+  border-radius: 16px !important;
+}
