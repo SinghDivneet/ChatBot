@@ -86,7 +86,7 @@ body{
   padding: 0 9px !important;
 }
 
-.message-section-message-row.from-business::before{
+.message-section-message-row.from-business .hsl-bubble::before{
   content: "" !important;
   background-size: 35px 35px !important;
   background-image: url(Dream11.png) !important;
@@ -95,9 +95,12 @@ body{
   background-repeat: no-repeat !important;
   margin-bottom: 0rem !important;
   border-radius: 50%;
+  display: block !important; 
 }
-.message-section-message-row.from-business{
-  flex-wrap: unset !important;
+.message-section-message-row.from-business .hsl-bubble{
+  /* flex-wrap: unset !important;
+  align-items: flex-end !important; */
+  display: flex !important;
   align-items: flex-end !important;
 }
 
