@@ -1,3 +1,8 @@
+body{
+  background-image: url(bg.png) !important;
+  background-size: cover !important;
+}
+
 @font-face {
   font-family: Roboto-Regular;
   src: url(Roboto-Regular.ttf);
@@ -365,8 +370,6 @@ span.composer-icon.right::before {
   background-image: url(send_black.svg) !important;
   width: 100% !important;
   height: 36px !important;
-  background-repeat: no-repeat !important;
-  background: black;
 }
 
 .composer.v2 span.composer-icon{
