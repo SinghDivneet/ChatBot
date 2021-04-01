@@ -366,10 +366,12 @@ span.composer-icon.right::before {
 
 .composer-icon::before {
   content: "" !important;
-  background-size: 34px 34px !important;
+  background-size: 33px 33px !important;
   background-image: url(send_black.svg) !important;
   width: 100% !important;
   height: 36px !important;
+  background-repeat: no-repeat !important;
+  background: white;
 }
 
 .composer.v2 span.composer-icon{
