@@ -349,14 +349,24 @@ span.composer-icon.right::before {
   height: unset !important;
 }
 
-.composer-icon::before {
+.composer-icon.disabled::before {
   content: "" !important;
   background-size: 34px 34px !important;
-  background-image: url(send.svg) !important;
+  background-image: url(send_white.svg) !important;
   width: 100% !important;
   height: 36px !important;
   background-repeat: no-repeat !important;
   background: white;
+}
+
+.composer-icon::before {
+  content: "" !important;
+  background-size: 34px 34px !important;
+  background-image: url(send_black.svg) !important;
+  width: 100% !important;
+  height: 36px !important;
+  background-repeat: no-repeat !important;
+  background: black;
 }
 
 .composer.v2 span.composer-icon{
