@@ -87,7 +87,7 @@ body{
 }
 
 .message-section-message-row.from-business .hsl-bubble::before,
-.message-section-message-row.from-business .hsl.button{
+.message-section-message-row.from-business .hsl.button::before{
   content: "" !important;
   background-size: 35px 35px !important;
   background-image: url(Dream11.png) !important;
