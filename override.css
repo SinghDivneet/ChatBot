@@ -98,8 +98,13 @@ body{
   margin-bottom: 0rem !important;
   border-radius: 50%;
   display: block !important;
+}
+
+.message-section-message-row.from-business .hsl.carousel::before{
+  position: unset !important;
   opacity: 1 !important;
 }
+
 .message-section-message-row.from-business .hsl-bubble,
 .message-section-message-row.from-business .hsl.button,
 .message-section-message-row.from-business .hsl.carousel{
